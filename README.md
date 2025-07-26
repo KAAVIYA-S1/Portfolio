@@ -22,7 +22,7 @@ This is my personal portfolio showcasing my interest, skills, and contact detail
 - **Tailwind CSS**
 - **Framer Motion**
 - **Lucide Icons**
-- **React Three Fiber (optional)**
+- **React Three Fiber**
 
 ---
 
