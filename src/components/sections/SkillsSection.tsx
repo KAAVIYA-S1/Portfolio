@@ -9,16 +9,16 @@ export const SkillsSection = () => {
 
   const skills = [
     { name: "Python", level: 95, color: "bg-gradient-to-r from-blue-500 to-cyan-500" },
+    { name: "C", level: 83, color: "bg-gradient-to-r from-orange-500 to-red-500" },
     { name: "Dart", level: 92, color: "bg-gradient-to-r from-green-500 to-green-700" },
-    { name: "SQL", level: 93, color: "bg-gradient-to-r from-yellow-500 to-green-500" },
     { name: "HTML", level: 90, color: "bg-gradient-to-r from-purple-500 to-pink-500" },
     { name: "CSS", level: 94, color: "bg-gradient-to-r from-orange-500 to-red-500" },
     { name: "JavaScript", level: 85, color: "bg-gradient-to-r from-green-600 to-green-800" },
   ];
 
   const tools = [
-    "React", "Vue.js", "Angular", "Next.js", "Express.js", "Django", 
-    "PostgreSQL", "Redis", "AWS", "Azure", "Git", "Figma"
+    "React", "Flutter", "MongoDB", "Node.js", "Django", 
+    "Github", "Git", "Figma","MySQL"
   ];
 
   const containerVariants = {
@@ -88,9 +88,9 @@ export const SkillsSection = () => {
               </div>
             </motion.div>
 
-            {/* Tools & Technologies */}
+            {/* Framework , Tools & Database */}
             <motion.div variants={itemVariants}>
-              <h3 className="heading-accent mb-8">Tools & Technologies</h3>
+              <h3 className="heading-accent mb-8">Framework , Tools & Database</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {tools.map((tool, index) => (
                   <motion.div

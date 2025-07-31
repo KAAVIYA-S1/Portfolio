@@ -96,7 +96,7 @@ export const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-cyan-500 rounded-full blur-2xl opacity-30 animate-pulse z-40 w-[300px] h-[300px]" />
               <Avatar className="w-[280px] h-[280px] border-4 border-primary/50 shadow-xl shadow-primary/30 relative z-50">
                 <AvatarImage
-                  src="/kaavs.jpg"
+                  src="/kaaviya.jpg"
                   alt="Kaaviya's profile picture"
                   className="object-cover w-full h-full rounded-full"
                 />
